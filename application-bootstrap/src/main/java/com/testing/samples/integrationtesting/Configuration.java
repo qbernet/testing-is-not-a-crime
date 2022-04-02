@@ -1,11 +1,11 @@
 package com.testing.samples.integrationtesting;
 
-import com.quentinb.testing.rest.configuration.RestApplication;
+import com.quentinb.testing.rest.RestApplicationConfiguration;
 import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.context.annotation.Import;
 
 @SpringBootConfiguration
 @Import(
-        RestApplication.class
+        RestApplicationConfiguration.class
 )
 public class Configuration {}
